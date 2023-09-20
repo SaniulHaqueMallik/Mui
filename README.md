@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Material UI - Overview
+Material UI is a library of React UI components that implements Google's Material Design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introduction
 
-## Available Scripts
+Material UI is an open-source React component library that implements Google's Material Design.
 
-In the project directory, you can run:
+It includes a comprehensive collection of prebuilt components that are ready for use in production right out of the box.
 
-### `npm start`
+Material UI is beautiful by design and features a suite of customization options that make it easy to implement your own custom design system on top of our components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Material UI v5 supports Material Design v2. Adoption of v3 is tentatively planned for Material UI v6—see the release schedule. You can follow this GitHub issue for future updates.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Advantages of Material UI
 
-### `npm test`
+Ship faster: Over 2,500 open-source contributors have poured countless hours into these components. Focus on your core business logic instead of reinventing the wheel—we've got your UI covered.
+Beautiful by default: we're meticulous about our implementation of Material Design, ensuring that every Material UI component meets the highest standards of form and function, but diverge from the official spec where necessary to provide multiple great options.
+Customizability: the library includes an extensive set of intuitive customizability features. The templates in our store demonstrate how far you can go with customization.
+Cross-team collaboration: Material UI's intuitive developer experience reduces the barrier to entry for back-end developers and less technical designers, empowering teams to collaborate more effectively. The design kits streamline your workflow and boost consistency between designers and developers.
+Trusted by thousands of organizations: Material UI has the largest UI community in the React ecosystem. It's almost as old as React itself—its history stretches back to 2014—and we're in this for the long haul. You can count on the community's support for years to come (e.g. Stack Overflow).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Material UI vs. Base UI
 
-### `npm run build`
+Material UI and Base UI feature many of the same UI components, but Base UI comes without any default styles or styling solutions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Material UI is comprehensive in that it comes packaged with default styles, and is optimized to work with Emotion (or styled-components).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Base UI, by contrast, could be considered the "skeletal" or "headless" counterpart to Material UI—in fact, future versions of Material UI will use Base UI components and hooks for its foundational structure.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Default installation
 
-### `npm run eject`
+# Run the command to add Material UI to your project:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ npm install @mui/material @emotion/react @emotion/styled 
