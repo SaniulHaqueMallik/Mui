@@ -6,6 +6,8 @@ function MuiButton() {
   return (
     <div>
       <Button variant='contained' endIcon={<SendIcon/>}>Click</Button>
+      <Button variant='text' endIcon={<SendIcon/>}>Click</Button>
+
     </div>
   )
 }
