@@ -4,7 +4,9 @@ import { Button, IconButton, Stack } from "@mui/material";
 
 function MuiButton() {
   return (
+    
     <div>
+      <h1>HOME</h1>
       <Stack spacing={4}>  {/* default value of display in stack -> display:flex */}
         
         <Stack spacing={2} direction="row">
